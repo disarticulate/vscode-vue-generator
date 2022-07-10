@@ -13,23 +13,16 @@ export const componentFile = `
 <script>
 export default {
   name: '{componentName}',
-  created() {
-
-  },
-  data() {
-    return {
-    }
-  },
-  props: {
-   
-  },
-  methods: {
-   
-  },
+  props: {},
+  data: () ({
+  }),
+  mounted () {},
+  methods: {},
+  computed: {}
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="sass" scoped>
 
 </style>
 
